@@ -2,7 +2,6 @@ import { Component } from 'react';
 
 import * as ImageService from 'service/image-service';
 import { Button, SearchForm, Grid, GridItem, Text, CardItem } from 'components';
-import { isVisible } from '@testing-library/user-event/dist/utils';
 
 export class Gallery extends Component {
   state = {
@@ -50,8 +49,10 @@ export class Gallery extends Component {
     const { images, isVisible } = this.state;
     return (
       <>
-        {/* <Text textAlign="center">Sorry. There are no images ... 😭</Text> */}
         <SearchForm onSubmit={this.onSubmit} />
+        {images.length === 0 && (
+          <Text textAlign="center">Sorry. There are no images ... 😭</Text>
+        )}
         <Grid>
           {images.length > 0 &&
             images.map(({ id, alt, src, avg_color }) => {
