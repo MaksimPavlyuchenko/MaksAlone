@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MaksAlone/static/css/main.a7d139de.css",
-    "main.js": "/MaksAlone/static/js/main.cf96f8de.js",
+    "main.js": "/MaksAlone/static/js/main.c856cc00.js",
     "index.html": "/MaksAlone/index.html",
     "main.a7d139de.css.map": "/MaksAlone/static/css/main.a7d139de.css.map",
-    "main.cf96f8de.js.map": "/MaksAlone/static/js/main.cf96f8de.js.map"
+    "main.c856cc00.js.map": "/MaksAlone/static/js/main.c856cc00.js.map"
   },
   "entrypoints": [
     "static/css/main.a7d139de.css",
-    "static/js/main.cf96f8de.js"
+    "static/js/main.c856cc00.js"
   ]
 }
